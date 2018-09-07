@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://dochyper.unitec.ac.nz/DigiLib/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/02/2018 23:15:04</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/04/2018 01:27:30</publishTime>
+    </File>
+    <File Include="BouncyCastle.Crypto.dll">
+      <publishTime>04/10/2018 13:45:44</publishTime>
+    </File>
+    <File Include="bower.json">
+      <publishTime>06/02/2018 23:15:04</publishTime>
+    </File>
+    <File Include="bundleconfig.json">
+      <publishTime>06/02/2018 23:15:04</publishTime>
+    </File>
+    <File Include="DigiLib.deps.json">
+      <publishTime>06/18/2018 14:52:41</publishTime>
+    </File>
+    <File Include="DigiLib.dll">
+      <publishTime>06/18/2018 14:48:35</publishTime>
+    </File>
+    <File Include="DigiLib.pdb">
+      <publishTime>06/18/2018 14:48:35</publishTime>
+    </File>
+    <File Include="DigiLib.PrecompiledViews.dll">
+      <publishTime>06/18/2018 14:52:37</publishTime>
+    </File>
+    <File Include="DigiLib.PrecompiledViews.pdb">
+      <publishTime>06/18/2018 14:52:37</publishTime>
+    </File>
+    <File Include="DigiLib.runtimeconfig.json">
+      <publishTime>06/18/2018 14:52:41</publishTime>
+    </File>
+    <File Include="MailKit.dll">
+      <publishTime>05/25/2018 16:18:20</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>05/21/2018 15:16:18</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/18/2018 14:52:42</publishTime>
+    </File>
+    <File Include="wwwroot/aks.jpg">
+      <publishTime>06/13/2018 03:00:08</publishTime>
+    </File>
+    <File Include="wwwroot/banner1.jpg">
+      <publishTime>06/13/2018 03:30:14</publishTime>
+    </File>
+    <File Include="wwwroot/banner2.jpg">
+      <publishTime>06/13/2018 03:33:25</publishTime>
+    </File>
+    <File Include="wwwroot/banner3.jpg">
+      <publishTime>06/13/2018 03:34:19</publishTime>
+    </File>
+    <File Include="wwwroot/banner4.jpg">
+      <publishTime>06/13/2018 03:35:15</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.min.css">
+      <publishTime>11/25/2015 03:04:20</publishTime>
+    </File>
+    <File Include="wwwroot/css/footer-distributed-with-address-and-phones.css">
+      <publishTime>06/15/2018 12:24:32</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>06/15/2018 12:21:10</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/galib.jpg">
+      <publishTime>06/13/2018 02:58:36</publishTime>
+    </File>
+    <File Include="wwwroot/grace.jpg">
+      <publishTime>06/14/2018 14:02:01</publishTime>
+    </File>
+    <File Include="wwwroot/image.jpg">
+      <publishTime>04/11/2018 16:14:07</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-020848550125.pdf">
+      <publishTime>06/04/2018 02:08:48</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-021147348020.xml">
+      <publishTime>06/04/2018 02:11:47</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-021544398733.pdf">
+      <publishTime>06/04/2018 02:15:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-021853708591.pdf">
+      <publishTime>06/04/2018 02:18:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-023528199611.pdf">
+      <publishTime>06/04/2018 02:35:28</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-023803488499.pdf">
+      <publishTime>06/04/2018 02:38:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-023803623815.jpg">
+      <publishTime>06/04/2018 02:38:03</publishTime>
+    </File>
+    <File Include="wwwroot/images/04062018-030104992723.jpg">
+      <publishTime>06/04/2018 03:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/06062018-005245078280.png">
+      <publishTime>06/06/2018 00:52:45</publishTime>
+    </File>
+    <File Include="wwwroot/images/06062018-134221834369.jpg">
+      <publishTime>06/06/2018 13:42:21</publishTime>
+    </File>
+    <File Include="wwwroot/images/14062018-132050834730.jpg">
+      <publishTime>06/14/2018 13:20:50</publishTime>
+    </File>
+    <File Include="wwwroot/images/15062018-123245569267.jpg">
+      <publishTime>06/15/2018 12:32:45</publishTime>
+    </File>
+    <File Include="wwwroot/images/15062018-123354933166.jpg">
+      <publishTime>06/15/2018 12:33:54</publishTime>
+    </File>
+    <File Include="wwwroot/images/15062018-130240707272.jpg">
+      <publishTime>06/15/2018 13:02:40</publishTime>
+    </File>
+    <File Include="wwwroot/images/15062018-130330656049.jpg">
+      <publishTime>06/15/2018 13:03:30</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner1.svg">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner2.svg">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner3.svg">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner4.svg">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.min.js">
+      <publishTime>11/25/2015 03:04:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/JQ.JS">
+      <publishTime>09/12/2016 20:20:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>06/02/2018 23:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>06/02/2018 23:15:06</publishTime>
+    </File>
+    <File Include="wwwroot/sid.jpg">
+      <publishTime>06/13/2018 16:50:05</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/04062018-030104814159.pdf">
+      <publishTime>06/04/2018 03:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/06062018-005244926404.pdf">
+      <publishTime>06/06/2018 00:52:45</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/06062018-134221674687.pdf">
+      <publishTime>06/06/2018 13:42:21</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/14062018-132050663999.pdf">
+      <publishTime>06/14/2018 13:20:50</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/15062018-123245406613.doc">
+      <publishTime>06/15/2018 12:32:45</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/15062018-123354892715.doc">
+      <publishTime>06/15/2018 12:33:54</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/15062018-130240620855.pdf">
+      <publishTime>06/15/2018 13:02:40</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Books/15062018-130330635760.pdf">
+      <publishTime>06/15/2018 13:03:30</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Presentation/04062018-030126209601.pptx">
+      <publishTime>06/04/2018 03:01:26</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Presentation/06062018-005754287231.ppt">
+      <publishTime>06/06/2018 00:57:54</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Presentation/15062018-125647188447.ppt">
+      <publishTime>06/15/2018 12:56:47</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Presentation/15062018-125726651105.ppt">
+      <publishTime>06/15/2018 12:57:26</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Presentation/15062018-125759013897.ppt">
+      <publishTime>06/15/2018 12:57:59</publishTime>
+    </File>
+    <File Include="wwwroot/Subject/Quiz/04062018-030956305290.docx">
+      <publishTime>06/04/2018 03:09:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

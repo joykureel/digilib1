@@ -1,0 +1,36 @@
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.deps.json
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.runtimeconfig.json
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.runtimeconfig.dev.json
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.dll
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.pdb
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.csproj.CoreCompileInputs.cache
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.AssemblyInfoInputs.cache
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.AssemblyInfo.cs
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.dll
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.pdb
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\joy\Desktop\Agile\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.csprojResolveAssemblyReference.cache
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.deps.json
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.runtimeconfig.json
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.runtimeconfig.dev.json
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.dll
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.pdb
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.csproj.CoreCompileInputs.cache
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.AssemblyInfoInputs.cache
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.AssemblyInfo.cs
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.dll
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.pdb
+C:\Users\joy\Desktop\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.csprojAssemblyReference.cache
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.deps.json
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.runtimeconfig.json
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.runtimeconfig.dev.json
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.dll
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\bin\Debug\netcoreapp2.0\DigiLib.pdb
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.csprojAssemblyReference.cache
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.csproj.CoreCompileInputs.cache
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.AssemblyInfoInputs.cache
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.AssemblyInfo.cs
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.dll
+D:\Old laptop Backup\College work\Agile\New folder\DigiLib\DigiLib\obj\Debug\netcoreapp2.0\DigiLib.pdb

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<DigiLib.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Books)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BookLink)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BookImage)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    var imgUrl = @Href("~" + item.BookImage);
+    var errImg = @Href("~/images/Unitec.jpg");
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Books)
+            </td>
+            <td>
+                <a href="@Html.DisplayFor(modelItem => item.BookLink)">Click here to View</a>
+            </td>
+            <td>
+                <img style="width: 250px; height: auto;" src="@imgUrl" alt="Student Image" onerror="this.onerror = null; this.src = '@errImg'">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject.ID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<node>
+		<data>hello</data>
+		<data1>How are you ?</data1>
+		<data2>I'm good</data2>
+	</node>
+</root>

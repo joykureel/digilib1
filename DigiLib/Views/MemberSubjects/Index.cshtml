@@ -1,0 +1,181 @@
+﻿
+@model DigiLib.Models.IndexData
+@{
+    ViewData["Title"] = "Index";
+}
+<br />
+
+<div>
+    @foreach (var item in Model.Subjects)
+    {
+        string selectedRow = "";
+
+        <button class="accordion @selectedRow">@Html.DisplayFor(modelItem => item.SubjectName)</button>
+        <div class="panel row">
+
+            @Html.ActionLink("Books", "Index", new { Bid = item.ID }, new { @class = "link button col-md-3 b3" })
+
+            @Html.ActionLink("Presentation", "Index", new { Pid = item.ID }, new { @class = "link button col-md-3 b1" })
+
+            @Html.ActionLink("Video", "Index", new { Vid = item.ID }, new { @class = "link button col-md-3 b2" })
+
+            @Html.ActionLink("Urls", "Index", new { Uid = item.ID }, new { @class = "link button col-md-3 b4" })
+
+        </div>
+
+
+    }
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+@if (Model.Books != null)
+{
+    <h3>Books</h3>
+    <div class="row">
+
+        @foreach (var item in Model.Books)
+        {
+            string selectedRow = "";
+            if (item.ID == (int?)ViewData["BookID"])
+            {
+                selectedRow = "success";
+            }
+
+            <div selectedRow="success" class="col-md-4" id="book">
+                <center>
+                    <div>
+                        <img style="width: 250px; height: auto;" src="@item.BookImage" alt="Student Image">
+                    </div>
+                    <br />
+                    <div>
+                        @item.Books
+                    </div>
+                    <br />
+                    <div>
+                        <a href="@item.BookLink">Click to view</a>
+                    </div>
+                </center>
+            </div>
+
+        }
+    </div>
+}
+@if (Model.Presentations != null)
+{
+    <h3>Presentation</h3>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Link</th>
+        </tr>
+        @foreach (var item in Model.Presentations)
+        {
+            string selectedRow = "";
+            if (item.ID == (int?)ViewData["PresentationID"])
+            {
+                selectedRow = "success";
+            }
+
+            <tr selectedRow="success">
+                <td>
+                    @item.PresentationName
+                </td>
+                <td>
+                    <a href="@item.Presentations">Click to view</a>
+                </td>
+
+            </tr>
+        }
+    </table>
+}
+@if (Model.Videos != null)
+{
+    <h3>Videos</h3>
+    <table class="table">
+
+        @foreach (var item in Model.Videos)
+        {
+            string selectedRow = "";
+            if (item.ID == (int?)ViewData["VideoID"])
+            {
+                selectedRow = "success";
+            }
+            <tr>
+                <td>
+                    <center>
+                        <h2>@item.VideoTitle</h2>
+                    </center>
+                </td>
+
+            </tr>
+            <tr selectedRow="success">
+
+                <td>
+                    <center>
+                        <iframe width="700" height="400" src="@item.Videos" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </center>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <strong>Description</strong><br />@item.VideoDescription
+                </td>
+            </tr>
+            
+        }
+    </table>
+ 
+}
+
+
+@if (Model.Urls != null)
+{
+    <h3>Urls</h3>
+    <table class="table">
+        <tr>
+
+
+            <th>Title</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+        @foreach (var item in Model.Urls)
+        {
+            string selectedRow = "";
+            if (item.ID == (int?)ViewData["UrlID"])
+            {
+                selectedRow = "success";
+            }
+
+            <tr selectedRow="success">
+
+                <td>
+                    @item.UrlName
+                </td>
+                <td>
+                    @item.UrlDescription
+                </td>
+                <td>
+                    <a href="@item.Urls">Click to View</a>
+                </td>
+
+            </tr>
+        }
+    </table>
+}
